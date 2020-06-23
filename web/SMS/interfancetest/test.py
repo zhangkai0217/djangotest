@@ -4,6 +4,7 @@ import logging
 import json
 
 import requests
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -67,7 +68,7 @@ class Multi_thread():
 if __name__ == '__main__':
     Multi_thread = Multi_thread()
     URL2 = 'https://portal.gotrack.com.cn/api/provenance-node-info/161590727879dAhC/'  # 地址
-    param = {'label':'beadb3-1590477575-416908'}  # 参数
+    param = {'label': 'beadb3-1590477575-416908'}  # 参数
     sumthread = 10  # 线程数
     sumget = 10  # 每个线程请求次数
 

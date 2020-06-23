@@ -33,7 +33,7 @@ arr = []
 timestart = time.time();
 for i in range(500):
     obje = {}
-    string = str(index+i)
+    string = str(index + i)
     obje['productId'] = string
     obje['label'] = string
     obje['blockchainId'] = string
@@ -42,4 +42,4 @@ param['products'] = arr
 s = json.dumps(param)
 r = requests.post(url, data=s, headers={'Content-Type': 'application/json'})
 timeend = time.time()
-print(timeend-timestart)
+print(timeend - timestart)
