@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba95cb4-6b6a-4fac-a32b-722f2465d4ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/SMS/interfancetest/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/SMS/interfancetest/post.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/SMS/interfancetest/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/SMS/interfancetest/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/db/db_conect_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/db/db_conect_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/models/md_us" beforeDir="false" afterPath="$PROJECT_DIR$/web/models/md_us" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/userinfo/user_manage_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/userinfo/user_manage_new.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webportal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webportal/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +38,39 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/jianai" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerMachine" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\zk\python\djangotest\static\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\zk\python\djangotest\static\jianai" />
+      <recent name="D:\workspace\zk\python\djangotest\templates\jianai" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.web">
+    <configuration name="Test: web" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="web" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="db_conect_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="md_us" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,7 +150,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/models/md_us" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/models/index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,28 +173,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/SMS/interfancetest/post.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="web" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/SMS/interfancetest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/SMS/interfancetest/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,20 +256,20 @@
       <item itemvalue="Django server.web" />
       <item itemvalue="Django server.Unnamed" />
       <item itemvalue="Django server.webDj" />
+      <item itemvalue="Django tests.Test: web" />
       <item itemvalue="Python.debug" />
       <item itemvalue="Python.hw_test" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.post" />
       <item itemvalue="Python.db_conect_test" />
-      <item itemvalue="Python.md_us" />
+      <item itemvalue="Python.index" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: web" />
+        <item itemvalue="Python.db_conect_test" />
+        <item itemvalue="Python.index" />
         <item itemvalue="Python.hw_test" />
         <item itemvalue="Python.post" />
-        <item itemvalue="Python.md_us" />
-        <item itemvalue="Python.db_conect_test" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +301,23 @@
       <workItem from="1592206778836" duration="835000" />
       <workItem from="1592472030166" duration="3278000" />
       <workItem from="1592879345522" duration="1174000" />
-      <workItem from="1592901513735" duration="626000" />
+      <workItem from="1592901513735" duration="1283000" />
+      <workItem from="1592962882855" duration="892000" />
+      <workItem from="1593004468046" duration="599000" />
+      <workItem from="1593308280118" duration="4489000" />
+      <workItem from="1593355600492" duration="2084000" />
+      <workItem from="1593409071649" duration="1722000" />
+      <workItem from="1593420393648" duration="1262000" />
+      <workItem from="1593435946855" duration="1037000" />
+      <workItem from="1593481539885" duration="12448000" />
+      <workItem from="1593522015058" duration="3245000" />
+      <workItem from="1593600262236" duration="595000" />
+      <workItem from="1593654190270" duration="7921000" />
+      <workItem from="1593740677245" duration="3213000" />
+      <workItem from="1593770289322" duration="612000" />
+      <workItem from="1594026949401" duration="697000" />
+      <workItem from="1594091016256" duration="569000" />
+      <workItem from="1594112276990" duration="2982000" />
     </task>
     <servers />
   </component>
@@ -307,74 +325,82 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="481" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592901528789">
+    <state x="481" y="224" width="1092" height="726" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593677313985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="481" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592901528789" />
+    <state x="481" y="224" width="1092" height="726" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593677313985" />
     <state x="685" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591713998142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="685" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591713998142" />
-    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1591237701679">
+    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1593656657827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1591237701679" />
-    <state width="1499" height="675" key="DebuggerActiveHint" timestamp="1592474720745">
+    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1593656657827" />
+    <state x="560" y="113" key="CommitChangelistDialog2" timestamp="1593766519424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1499" height="675" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1592474720745" />
-    <state x="761" y="330" key="EnvironmentVariablesDialog" timestamp="1589959562693">
+    <state x="560" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593766519424" />
+    <state width="1711" height="551" key="DebuggerActiveHint" timestamp="1593675848679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="330" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589959562693" />
-    <state x="807" y="324" key="FileChooserDialogImpl" timestamp="1591716216025">
+    <state width="1711" height="551" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1593675848679" />
+    <state x="761" y="330" key="EnvironmentVariablesDialog" timestamp="1593505856125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="807" y="324" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591716216025" />
-    <state width="1877" height="409" key="GridCell.Tab.0.bottom" timestamp="1592902145322">
+    <state x="761" y="330" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593505856125" />
+    <state x="807" y="324" key="FileChooserDialogImpl" timestamp="1593412750150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="409" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592902145322" />
-    <state width="1877" height="409" key="GridCell.Tab.0.center" timestamp="1592902145322">
+    <state x="807" y="324" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593412750150" />
+    <state width="1877" height="376" key="GridCell.Tab.0.bottom" timestamp="1594115264122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="409" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592902145322" />
-    <state width="1877" height="409" key="GridCell.Tab.0.left" timestamp="1592902145322">
+    <state width="1877" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594115264122" />
+    <state width="1877" height="376" key="GridCell.Tab.0.center" timestamp="1594115264122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="409" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592902145322" />
-    <state width="1877" height="409" key="GridCell.Tab.0.right" timestamp="1592902145322">
+    <state width="1877" height="376" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594115264122" />
+    <state width="1877" height="376" key="GridCell.Tab.0.left" timestamp="1594115264122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="409" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592902145322" />
-    <state width="1877" height="409" key="GridCell.Tab.1.bottom" timestamp="1592879554081">
+    <state width="1877" height="376" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594115264122" />
+    <state width="1877" height="376" key="GridCell.Tab.0.right" timestamp="1594115264122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="409" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592879554081" />
-    <state width="1877" height="409" key="GridCell.Tab.1.center" timestamp="1592879554081">
+    <state width="1877" height="376" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594115264122" />
+    <state width="1877" height="232" key="GridCell.Tab.1.bottom" timestamp="1593680276071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="409" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592879554081" />
-    <state width="1877" height="409" key="GridCell.Tab.1.left" timestamp="1592879554081">
+    <state width="1877" height="232" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593680276071" />
+    <state width="1877" height="232" key="GridCell.Tab.1.center" timestamp="1593680276071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="409" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592879554081" />
-    <state width="1877" height="409" key="GridCell.Tab.1.right" timestamp="1592879554081">
+    <state width="1877" height="232" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593680276071" />
+    <state width="1877" height="232" key="GridCell.Tab.1.left" timestamp="1593680276071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="409" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592879554081" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1591170056213">
+    <state width="1877" height="232" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593680276071" />
+    <state width="1877" height="232" key="GridCell.Tab.1.right" timestamp="1593680276071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591170056213" />
+    <state width="1877" height="232" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593680276071" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1593331385959">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593331385959" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1593766496985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593766496985" />
     <state width="968" height="522" key="XDebugger.FullValuePopup" timestamp="1592474720741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="522" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1592474720741" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1592879360476">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593770290144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592879360476" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593770290144" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,7 +420,24 @@
           <line>43</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/software/python/3.8/Lib/site-packages/django/db/models/base.py</url>
+          <line>775</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/software/python/3.8/Lib/site-packages/django/db/models/base.py</url>
+          <line>828</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
@@ -402,6 +445,9 @@
     <SUITE FILE_PATH="coverage/web$db_conect_test.coverage" NAME="db_conect_test Coverage Results" MODIFIED="1591690659551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/db" />
     <SUITE FILE_PATH="coverage/web$hw_test.coverage" NAME="hw_test Coverage Results" MODIFIED="1592879675216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/SMS" />
     <SUITE FILE_PATH="coverage/web$test.coverage" NAME="test Coverage Results" MODIFIED="1591259135296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/SMS/interfancetest" />
+    <SUITE FILE_PATH="coverage/djangotest$Test__web.coverage" NAME="Test: web Coverage Results" MODIFIED="1593680276055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/djangotest$db_conect_test.coverage" NAME="db_conect_test Coverage Results" MODIFIED="1593436732029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/db" />
+    <SUITE FILE_PATH="coverage/djangotest$index.coverage" NAME="index Coverage Results" MODIFIED="1593356967788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/models" />
     <SUITE FILE_PATH="coverage/web$md_us.coverage" NAME="md_us Coverage Results" MODIFIED="1592214204156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/models" />
     <SUITE FILE_PATH="coverage/web$post.coverage" NAME="post Coverage Results" MODIFIED="1592475314655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/SMS/interfancetest" />
   </component>
